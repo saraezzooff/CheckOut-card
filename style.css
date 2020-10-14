@@ -1,0 +1,170 @@
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    margin: 100px 0;
+}
+
+#content-1{
+    margin: 0 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#envlope-content{
+    display: flex;
+}
+#summary-header{
+    margin: 30px 10px;
+    color: #000;
+}
+#envlope-content img{
+    margin: 0 10px;
+}
+
+#email_checks{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#price{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#coupon{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #313131;
+}
+
+#coupon h5{
+    color: #313131;
+    margin: 10px 0;
+}
+
+#coupon div{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #1b6ca8;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#vat{
+    display: flex;
+    justify-content: space-between;
+    color: #313131;
+    margin-bottom: 30px;
+}
+
+hr {
+    border:none;
+    border-top:2px dashed #ccc;
+    color:#ccc;
+    background-color:#fff;
+    height:1px;
+    width:80%;
+    margin: auto;
+    
+  }
+
+#vat h5{
+    margin: 0 10px;
+}
+
+#vat h5:nth-child(2){
+    margin-right: 20px;
+}
+
+#order-bill{
+    margin: 20px 10px;
+}
+
+#order-total{
+    display: flex;
+    justify-content: space-between;
+}
+
+#order-total strong{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#order-bill h6{
+    color: #8e8e8e;
+}
+
+#content-2{
+    background-color: #f2f1ed;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 330px;
+
+}
+
+#credit, #secure{
+
+    margin: 20px 20px;
+}
+
+#gurantee{
+    margin: 0 20px;
+}
+#credit img, #secure img, #gurantee img{
+    margin-right: 20px;
+} 
+
+#right-content p{
+    color: #aeaeae;
+}
+
+#card, #paypal, #bitcoin{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 10rem;
+    margin-right: 30px;
+
+}
+
+#card img, #paypal img, #bitcoin img{
+    display: block;
+    margin: 10px auto;
+
+    
+}
+
+#card p, #paypal p, #bitcoin p{
+    text-align: center;
+    color: #313131;
+}
+
+#billing-add, #card-info{
+    margin-top: 50px;
+}
+
+label{
+    text-transform: uppercase;
+    color: #8e8e8e;
+  
+}
+
+.btn{
+	background: #2196F3;
+	width: 350px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	height: 40px;
+}
